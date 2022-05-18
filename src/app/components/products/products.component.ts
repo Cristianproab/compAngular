@@ -41,4 +41,8 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onAddToShoppingCart(product: Product ) {
+    console.log(product);
+  }
+
 }
